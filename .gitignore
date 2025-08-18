@@ -1,0 +1,41 @@
+# Nix build results
+result
+result-*
+
+# Nix store paths
+/nix/store/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Cloud credentials (never commit these!)
+credentials/
+*.pem
+*.key
+*.json
+.env
+.env.local
+
+# Build artifacts
+*.vhd
+*.raw
+*.qcow2
+*.tar.gz
+*.img
+
+# Cache directories
+.cache/
+.cachix/
