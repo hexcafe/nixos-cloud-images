@@ -7,10 +7,8 @@
   ];
 
   # GCP-specific configuration
-  virtualisation.googleComputeImage = {
-    diskSize = 8192; # 8GB
-    compressionLevel = 9;
-  };
+  virtualisation.diskSize = 8192; # 8GB
+  virtualisation.googleComputeImage.compressionLevel = 9;
 
   # GCP CLI tools
   environment.systemPackages = with pkgs; [

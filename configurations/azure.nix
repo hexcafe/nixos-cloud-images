@@ -7,9 +7,7 @@
   ];
 
   # Azure-specific configuration
-  virtualisation.azureImage = {
-    diskSize = 8192; # 8GB
-  };
+  virtualisation.diskSize = 8192; # 8GB
 
   # Azure CLI tools
   environment.systemPackages = with pkgs; [
